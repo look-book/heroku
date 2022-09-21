@@ -2,7 +2,7 @@ import {posts} from "./data";
 import { useLocation } from "react-router-dom";
 
 const AlbumIndividual = () => {
-    const user = false;
+    //const user = false;
     const post = posts[2];
     const location = useLocation();
     console.log(location);

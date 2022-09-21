@@ -9,7 +9,7 @@ function LocationCard({post}) {
    
             {post.location} <br/> {post.rating} Star Rating
             <br/>
-            <img src={post.img} />
+            <img src={post.img} alt="image"/>
             </span>
           
                

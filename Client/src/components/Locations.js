@@ -1,7 +1,7 @@
 import React from 'react';
 import LocationCard from './LocationCard';
 import { posts } from './data';
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 
 function Locations() {
     return (

@@ -6,8 +6,8 @@ const Upload = () => {
   const [previewSource, setPreviewSource] = useState("");
   const [title, setTitle] = useState("");
   const [location, setLocation] = useState("");
-  const [successMsg, setSuccessMsg] = useState("");
-  const [errMsg, setErrMsg] = useState("");
+  //const [successMsg, setSuccessMsg] = useState("");
+  //const [errMsg, setErrMsg] = useState("");
 
   const handleFileInputChange = (e) => {
     const file = e.target.files[0];
@@ -39,10 +39,10 @@ const Upload = () => {
       });
       setFileInputState("");
       setPreviewSource("");
-      setSuccessMsg("Image uploaded successfully");
+      //setSuccessMsg("Image uploaded successfully");
     } catch (error) {
       console.error(error);
-      setErrMsg("something went wrong!");
+      //setErrMsg("something went wrong!");
     }
   };
 
